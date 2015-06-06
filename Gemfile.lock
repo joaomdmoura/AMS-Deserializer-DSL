@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/joaomdmoura/active_model_serializers.git
+  revision: 35fb9de3104336fde07df093a4bd7765ac9ea0fa
+  branch: deserializer-implementation
+  specs:
+    active_model_serializers (0.10.0.rc1)
+      activemodel (>= 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -141,6 +149,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers!
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)

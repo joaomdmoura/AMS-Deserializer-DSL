@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/joaomdmoura/active_model_serializers.git
-  revision: e321cb366d094a665a97692f2198fc9f7be1a3f8
-  branch: spliting-json-adapter
+  revision: 545b90acb8f931835e80e2bf51d9649b14313187
+  branch: deserializer-implementation
   specs:
     active_model_serializers (0.10.0.rc1)
       activemodel (>= 4.0)

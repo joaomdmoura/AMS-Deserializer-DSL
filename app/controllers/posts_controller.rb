@@ -1,5 +1,4 @@
 class PostsController < ApplicationController
-  include ActiveModel::Deserializer
 
   def index
     @posts = Post.all
@@ -7,7 +6,7 @@ class PostsController < ApplicationController
   end
 
   def create
-   @post = PostSerialization.new(post_params).deserialize
+   @post = PostSerialization.deserialize(post_params)
 
    if @post.save
      render json: @post, status: :created, location: @post
@@ -16,9 +15,10 @@ class PostsController < ApplicationController
    end
  end
 
-  # def create
-  #   @post = deserialize(:post).object
-  #   @post.save
-  #   render json: @post
-  # end
+ private
+
+ def post_params
+   puts PostSerialization._params
+   @params.require(:post).permit(PostSerialization._params)
+ end
 end

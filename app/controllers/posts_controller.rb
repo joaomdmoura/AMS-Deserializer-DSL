@@ -18,6 +18,6 @@ class PostsController < ApplicationController
  private
 
  def post_params
-   params.require(:post).permit(PostSerialization._params)
+   PostSerialization.permit(params)
  end
 end

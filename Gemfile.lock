@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/joaomdmoura/active_model_serializers.git
-  revision: d788fa26fb58a7b09ba5ac5414692fb796109e34
+  revision: ef05bf19a3201bd387a738d0217295ccba234120
   branch: deserializer-implementation
   specs:
     active_model_serializers (0.10.0.rc1)
@@ -78,7 +78,7 @@ GEM
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.7.0)
-    multi_json (1.11.1)
+    multi_json (1.11.2)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     pry (0.10.1)

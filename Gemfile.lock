@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/joaomdmoura/active_model_serializers.git
-  revision: 360a03e1695ac8f3b1c4930de76cbfe731af95e0
+  revision: 22eed92b79ef847e714759d9777f827546211df4
   branch: deserializer-implementation
   specs:
     active_model_serializers (0.10.0.rc1)
